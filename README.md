@@ -8,7 +8,7 @@
 
 **Full video:** [franka_pick_place_demo.mp4](./media/franka_pick_place_demo.mp4)
 
-## 📸 Scene & Grasp Setup
+##  Scene & Grasp Setup
 
 **Hover Pose**
 ![Hover Pose](./images/hover_pose.png)
@@ -39,7 +39,7 @@ Implemented a scripted Franka pick prototype in Isaac Sim using a Z-up runtime s
 
 ---
 
-## 🧠 System Architecture
+##  System Architecture
 
 ### OpenUSD Composition Strategy
 
@@ -69,7 +69,7 @@ wrapper_xf.AddRotateXOp().Set(90.0)
 
 ---
 
-## 🤖 Manipulation Pipeline
+##  Manipulation Pipeline
 
 ### Deterministic Sequence
 
@@ -85,7 +85,7 @@ wrapper_xf.AddRotateXOp().Set(90.0)
 
 ---
 
-## ⚙️ Motion Control Strategy
+##  Motion Control Strategy
 
 ### Joint-Space Control (No IK)
 
@@ -122,7 +122,7 @@ blended = (1 - alpha) * close_positions + alpha * lift_positions
 
 ---
 
-## 🧪 Physics & Grasp Debugging
+##  Physics & Grasp Debugging
 
 ### Observed Failures
 
@@ -154,7 +154,7 @@ blended = (1 - alpha) * close_positions + alpha * lift_positions
 
 ---
 
-## 🧠 Debugging Truths (High-Value Insights)
+##  Debugging Truths (High-Value Insights)
 
 > These are the kinds of lessons that matter in production pipelines.
 
@@ -166,7 +166,7 @@ blended = (1 - alpha) * close_positions + alpha * lift_positions
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Project_02/
@@ -185,7 +185,7 @@ Project_02/
 
 ---
 
-## 🚀 What This Demonstrates
+##  What This Demonstrates
 
 * OpenUSD scene composition and coordinate reconciliation
 * Isaac Sim articulation control
@@ -195,7 +195,7 @@ Project_02/
 
 ---
 
-## 🔮 Next Steps
+##  Next Steps
 
 * Replace joint-space control with IK / motion planning
 * Add grasp detection (contact sensors or perception)
@@ -205,7 +205,7 @@ Project_02/
 
 ---
 
-## 🌐 Digital Twin Relevance
+##  Digital Twin Relevance
 
 This project represents a foundational pattern in digital twin systems:
 
@@ -223,13 +223,13 @@ This is directly extensible to:
 
 ---
 
-## 🧠 Key Takeaway
+##  Key Takeaway
 
 > Stable robotic manipulation emerges from the interaction of motion, timing, and physics — not from position alone.
 
 ---
 
-## 🧪 Tools Used
+##  Tools Used
 
 * NVIDIA Isaac Sim
 * OpenUSD (Pixar USD)
@@ -237,7 +237,7 @@ This is directly extensible to:
 
 ---
 
-## 🧠 Author
+##  Author
 
 Dartayous Hunter - Digital Twin Engineer (NVIDIA-focused)
 
